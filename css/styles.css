@@ -1,15 +1,59 @@
 nav {
     background-color: lightsteelblue;
+    height: 100px;
 }
 
 #leftcolumn {
     background-color: burlywood;
+    height: 700px;
 }
 
 #rightcolumn {
     background-color: beige;
+    height: 700px;
 }
 
 footer {
     background-color: lightblue;
+    height: 100px;
 }
+
+/* breakpoints */
+ /* Small devices (landscape phones, 576px and up) */
+ @media only screen and (min-width: 576px) {
+    body {
+      background-color: red;
+    }
+  
+  }
+  
+   /* Medium devices (tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    body {
+      background-color: hotpink;
+    }
+  
+  }
+  
+   /* Large devices (desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    body {
+      background-color: green;
+    }
+  
+  }
+  
+   /* X-Large devices (large desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    body {
+      background-color: blue;
+    }
+  
+  }
+  
+   /* XX-Large devices (larger desktops, 1400px and up) */
+  @media only screen and (min-width: 1400px) {
+    body {
+      background-color: gold;
+    }
+  }
